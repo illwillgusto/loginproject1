@@ -150,3 +150,24 @@
     box-shadow: 0 -1px 10px rgba(13,12,34, 0.3);
   }
   
+  .password__settings {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+  
+  .password__settings__remember {
+    font-size: 14px;
+    color: #0d0c22;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .password__settings__remember input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    margin: 0;
+  }
