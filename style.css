@@ -222,3 +222,81 @@
     transform: translateY(calc(-50vh - 116px));
   }
   
+  @keyframes bounce {
+    5% {
+      height: 300px;
+      width: 300px;
+    }
+    10% {
+      height: 300px;
+      width: 280px;
+    }
+    15% {
+      height: 280px;
+      width: 320px;
+      transform: translateY(0);
+    }
+    20%{
+      height: 300px;
+      width: 320px;
+    }
+    25% {
+       transform: translateY(-200px);
+    }
+    30% {
+      height: 300px;
+      width: 300px;
+    }
+    35% {
+      height: 300px;
+      width: 280px;
+    }
+    40% {
+      height: 280px;
+      width: 320px;
+      transform: translateY(0);
+    }
+    45%{
+      height: 300px;
+      width: 320px;
+    }
+    50% {
+       transform: translateY(-160);
+    }
+    55% {
+      height: 300px;
+      width: 300px;
+    }
+    60% {
+      height: 300px;
+      width: 280px;
+    }
+    65% {
+      height: 280px;
+      width: 320px;
+      transform: translateY(0);
+    }
+    70%{
+      height: 300px;
+      width: 320px;
+    }
+    75% {
+       transform: translateY(-60px);
+    }
+    80% {
+      height: 300px;
+      width: 280px;
+    }
+    85% {
+      height: 280px;
+      width: 320px;
+      transform: translateY(-20px);
+    }
+    90%{
+      height: 300px;
+      width: 320px;
+    }
+    100% {
+       transform: translateY(0);
+    }
+  }
