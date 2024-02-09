@@ -388,3 +388,13 @@
         transform: scale(1, 1);
     }
   }
+
+  .ball__shadow {
+    background: rgb(0 0 0 / 5%);
+    box-shadow: 0 0 10px rgb(0 0 0 / 6%);
+    height: 20px;
+    width: 240px;
+    border-radius: 50%;
+    transform: scale(0.1);
+    animation: shrink 3s forwards;
+  }
