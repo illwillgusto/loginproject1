@@ -378,3 +378,13 @@
         transform: rotateY(0);
     }
   }
+
+  @keyframes blink {
+    0%, 100% {
+        transform: scale(1, .05);
+    }
+    5%,
+    95% {
+        transform: scale(1, 1);
+    }
+  }
