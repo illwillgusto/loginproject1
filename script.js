@@ -38,3 +38,10 @@ const handleFocusOutPassword = event => {
         }
     }
 }
+
+document.addEventListener("mousemove", event => handleMouseMove(event))
+passwordField.addEventListener('focus', event => handleFocusPassword(event))
+passwordField.addEventListener('focusout', event => handleFocusOutPassword(event))
+
+document.getElementById('submit').addEventListener("mouseover", event => document.getElementById('ball').classList.toggle('look_at'))
+document.getElementById('submit').addEventListener("mouseout", event => document.getElementById('ball').classList.toggle('look_at'))
