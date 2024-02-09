@@ -300,7 +300,7 @@
        transform: translateY(0);
     }
   }
-  
+
   .ball__eyes {
     display: flex;
     gap: 60px;
@@ -324,4 +324,14 @@
     background: #000;
     border-radius: 100%;
     display: block;
+  }
+
+  .ball__mouth {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #000;
+    margin: 10px auto;
+    clip-path: polygon(100% 50%, 100% 100%, 0 100%, 0 50%);
+    transition: .3s;
   }
