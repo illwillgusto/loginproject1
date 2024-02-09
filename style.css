@@ -30,3 +30,28 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     padding: 24px;
   }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form {
+    padding-right: 24px;
+  }
+  
+  .form__title {
+    text-align: center;
+    color: #030712;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0 0 8px;
+  }
+  
+  .form__description {
+    color: #374151;
+    text-align: center;
+    margin: 0 0 32px;
+  }
