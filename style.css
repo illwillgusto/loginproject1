@@ -343,3 +343,23 @@
     height: 30px;
     transition: .3s;;
   }
+
+  #face, #ball {
+    transition: .3s;
+  }
+  
+  #ball.sad .eye_wrap:first-child {
+    clip-path: polygon(67% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+  }
+  
+  #ball.sad .eye_wrap:last-child {
+    clip-path: polygon(0 0, 43% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+  }
+  
+  #ball.sad .ball__mouth {
+    transform: scaleY(-1.05);
+  }
+  
+  #ball.sad {
+    animation: shake 1.5s;
+  }
