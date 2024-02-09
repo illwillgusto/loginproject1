@@ -411,3 +411,24 @@
   #ball.look_at {
     transform: rotate(-17deg);
   }
+
+  @media (max-width: 768px) {
+    .form__animation {
+      position: fixed;
+      background: none;
+      right: 0;
+      bottom: 0;
+    }
+  
+    .form__title {
+      font-size: 28px;
+    }
+  
+    .ball {
+      width: 100px;
+      height: 100px;
+      animation: roll_out 1s ease-out forwards;
+      transform: translate(103px, 0);
+    }
+}
+
