@@ -16,3 +16,12 @@ const handleMouseMove = event => {
     }
 }
 
+const handleFocusPassword = event => {
+    document.getElementById('face').style.transform = 'translateX(30px)'
+    const eyes = document.getElementsByClassName('eye')
+
+    for (let eye of eyes) {
+        eye.style.transform = `rotate(100deg)`;
+    }
+}
+
