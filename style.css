@@ -300,3 +300,28 @@
        transform: translateY(0);
     }
   }
+  
+  .ball__eyes {
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  
+  .eye {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 3px;
+    display: block;
+  }
+  
+  .eye:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #000;
+    border-radius: 100%;
+    display: block;
+  }
