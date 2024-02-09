@@ -25,3 +25,16 @@ const handleFocusPassword = event => {
     }
 }
 
+const handleFocusOutPassword = event => {
+    document.getElementById('face').style.transform = 'translateX(0)'
+    if(event.target.checkValidity()) {
+        document.getElementById('ball').classList.toggle('sad')
+    } else {
+        document.getElementById('ball').classList.toggle('sad')
+        const eyes = document.getElementsByClassName('eye')
+
+        for (let eye of eyes) {
+            eye.style.transform = `rotate(215deg)`;
+        }
+    }
+}
