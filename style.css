@@ -335,3 +335,11 @@
     clip-path: polygon(100% 50%, 100% 100%, 0 100%, 0 50%);
     transition: .3s;
   }
+
+  .eye_wrap {
+    overflow: hidden;
+    animation: blink 5s infinite;
+    width: 30px;
+    height: 30px;
+    transition: .3s;;
+  }
